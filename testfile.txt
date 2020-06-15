@@ -1,0 +1,13 @@
+This is a text file.
+This file will be used to check if encryptor works properly.
+
+SPECIAL CHARS:
+!@#$%^&*()_+{}:"<>?[];',./-=~`|\
+
+NUMBERS:
+1234567890
+
+ALPHABETS:
+qwertyuiopasdfghjklzxcvbnm
+
+TAB<    >TAB
