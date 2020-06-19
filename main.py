@@ -19,6 +19,16 @@ if args.mode == 'C':
         for path in filepaths:
             enc.encrypt_file(path)
             encrypteds.append(path)
-    except:
-        for path in encrypteds:
+    except Exception as e:
+        print(e)
+    else:
+        print("Encrypted Successfully.")
+
+elif args.mode == 'D':
+    try:
+        for path in filepaths:
             enc.decrypt_file(path)
+    except Exception as e:
+        print(e)
+    else:
+        print("Decrypted Successfully.")

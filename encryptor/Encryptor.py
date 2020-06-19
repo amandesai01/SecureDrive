@@ -9,7 +9,7 @@ import time
 
 class Encryptor:
     def __init__(self, key):
-        self.key = key
+        self.key = bytes(key, 'utf-8')
 
     def pad(self, s):
         return s + b"\0" * (AES.block_size - len(s) % AES.block_size)
